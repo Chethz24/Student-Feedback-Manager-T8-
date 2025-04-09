@@ -1,21 +1,13 @@
-# Student-Feedback-Manager-T8-
+# Student Feedback Manager
 
-This project is a Student Feedback Manager for EduTrack.
 
-## Version 1.0.0 Features
 
-- Collect student feedback using `feedback_entry.py`.
-- Calculate the average score using `score_calculator.py`.
+## Version 1.1.0: Export Feedback to .txt
 
-## How to Run
+- Added `report_generator.py` to export feedback data to a .txt file.
+- The exported file is named `feedback_report.txt`.
 
-1. Clone the repository.
-2. Run `python feedback_entry.py` to collect feedback.
-3. Run `python score_calculator.py` to calculate the average score.
+## How to Run the Export
 
-## How to Run Tests
-
-1. Install `pytest`: `pip install pytest`
-2. Run `pytest` in the project directory.
-
+1. Run `python report_generator.py` to export the feedback.
 
